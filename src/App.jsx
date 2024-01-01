@@ -9,8 +9,8 @@ function App() {
   return (
     <Routes>
       <Route path="" element={<Layout/>} >
-        <Route exact path="/" element={<Home />} />
-        <Route exact path="/register" element={<Register />} />
+        <Route exact path="/toAce-welcome/" element={<Home />} />
+        <Route exact path="/toAce-welcome/register" element={<Register />} />
       </Route>
       <Route path="/*" element={<PageNotFound />} />
     </Routes>
