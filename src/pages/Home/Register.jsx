@@ -4,12 +4,10 @@ import React, { useRef } from "react";
 function Register() {
   const formRef = useRef();
 
-  const scriptUrl =
-    "https://script.google.com/macros/s/AKfycbzCkv3smdGXGz_PeDEYAfu9emxFqwHhEwb_9KtJ7bkiMalfvq0d0AhPHhik8vEghYgGsw/exec";
+  const scriptUrl = import.meta.env.VITE_userBaseUrl
 
   const handleSubmit = (e) => {
     e.preventDefault();
-
     fetch(scriptUrl, { method: "POST", body: new FormData(formRef.current) })
       .then((res) => {
         console.log(res);

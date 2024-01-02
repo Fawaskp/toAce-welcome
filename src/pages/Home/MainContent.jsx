@@ -14,8 +14,8 @@ function MainContent() {
           level up your skills in no time.
         </p>
       </div>
-      <div className="w-full md:w-1/2 px-3" >
-        <img src="https://myinterviewpractice.com/images/hmBannerImg.webp" alt="Interview Image" />
+      <div className="w-full md:w-1/2 px-7 md:px-3" >
+        <img className="max-w-full " src="https://myinterviewpractice.com/images/hmBannerImg.webp" alt="Interview Image" />
       </div>
     </div>
     </div>
