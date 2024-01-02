@@ -3,6 +3,7 @@ import { Outlet, useNavigate } from "react-router-dom";
 import { Fragment } from "react";
 import { Disclosure, Menu, Transition } from "@headlessui/react";
 import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline";
+import { ToastContainer} from 'react-toastify';
 
 function Layout() {
     return (
@@ -32,6 +33,7 @@ const navigation = [
       <Disclosure as="nav" className="">
         {({ open }) => (
           <>
+          <ToastContainer position="top-center" autoClose="1700" />
             <div className="max-w-7xl mx-auto p-2 sm:p-6 lg:p-8">
               <div className="relative flex h-16 items-center justify-between">
                 {/* <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
@@ -99,7 +101,7 @@ const navigation = [
             <div className="flex flex-col sm:flex-row gap-1 sm:gap-5">
               {footerBtns.map((btn) => {
                 return (
-                  <div className="text-white font-bold text-md inline-block">
+                  <div key={btn.name} className="text-white font-bold text-md inline-block">
                     {btn.name}
                   </div>
                 );
