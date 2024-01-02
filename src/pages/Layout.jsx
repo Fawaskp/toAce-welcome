@@ -94,7 +94,7 @@ const navigation = [
       <>
         <div className="w-full bottom-0 flex justify-center p-10 mt-10">
         </div>
-        <div className="fixed w-full bottom-0 flex justify-center bg-gray-700 p-10">
+        <div className="w-full  flex justify-center bg-gray-700 p-10">
           <div className="mx-auto max-w-7xl">
             <div className="flex flex-col sm:flex-row gap-1 sm:gap-5">
               {footerBtns.map((btn) => {

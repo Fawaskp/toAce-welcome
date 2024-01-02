@@ -18,7 +18,7 @@ function Register() {
       .catch((err) => console.log(err));
   };
   return (
-    <div className="max-w-3xl mx-auto">
+    <div className="max-w-3xl mx-auto px-10">
       <form ref={formRef} onSubmit={handleSubmit} name="google-sheet">
         <h1 className="text-3xl font-bold py-3">Register </h1>
         <div className="grid gap-6 mb-6 md:grid-cols-1">
