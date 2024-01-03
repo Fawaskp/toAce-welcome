@@ -2,6 +2,7 @@ import React from "react";
 import MainContent from "./MainContent";
 import RegisterPart from "./RegisterPart";
 import PathPart from "./PathPart";
+import GetHired from "./GetHired";
 
 function Home() {
   return (
@@ -9,6 +10,7 @@ function Home() {
       <MainContent />
       <RegisterPart />
       <PathPart/>
+      <GetHired></GetHired>
     </>
   );
 }
