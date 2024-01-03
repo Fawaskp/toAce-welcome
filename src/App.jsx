@@ -2,7 +2,7 @@ import Home from "./pages/Home/Home";
 import { Route, Routes } from "react-router-dom";
 import PageNotFound from "./pages/PageNotFound/PageNotFound";
 import "./index.css";
-import Register from "./pages/Home/Register";
+import Register from "./pages/Register/Register";
 import Layout from "./pages/Layout";
 
 function App() {

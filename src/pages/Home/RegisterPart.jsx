@@ -5,7 +5,7 @@ function RegisterPart() {
   const navigate = useNavigate();
 
   return (
-    <div className="mx-auto my-36 bg-black p-5 md:p-10 w-5/6 md:w-4/6 rounded-3xl text-white">
+    <div className="mx-auto mt-36 bg-black p-5 md:p-10 w-5/6 md:w-4/6 rounded-3xl text-white">
       <h1 className="text-lg text-center md:text-left md:text-3xl font-bold">
         Register for a seamless carrier
       </h1>
