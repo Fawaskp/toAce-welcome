@@ -10,7 +10,7 @@ function Home() {
       <MainContent />
       <RegisterPart />
       <PathPart/>
-      <GetHired></GetHired>
+      <GetHired/>
     </>
   );
 }

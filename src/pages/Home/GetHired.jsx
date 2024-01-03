@@ -2,14 +2,12 @@ import React from "react";
 
 function GetHired() {
   return (
-    <div className="container">
-      <div className="w-full p-16 flex justify-center ">
-        <div>
-          <h3 className="text-3xl font-semibold">How get into a career?</h3>
-        </div>
+    <div className="container mx-auto">
+      <div className="w-full py-8 mt-12 md:p-16 flex justify-center ">
+          <h3 className="text-xl text-center md:text-3xl font-semibold">How get into a career?</h3>
       </div>
-      <div className="flex justify-evenly">
-        <div className="rounded-xl shadow-md ring-1 ring-gray-700 offset-x-0 offset-y-0 p-8">
+      <div className="flex flex-col gap-4 px-3 md:flex-row md:gap-0 justify-evenly">
+        <div className="rounded-xl shadow-md ring-1 mx-2 ring-gray-700 offset-x-0 offset-y-0 p-8">
           <div className="flex items-center gap-2 mb-5">
             <img
               className="filter brightness-95 saturate-150  hue-rotate-90"
@@ -20,7 +18,7 @@ function GetHired() {
             />
             <h3 className="font-medium">Quality</h3>
           </div>
-          <p className="text-blue-500 font-semibold mb-3 text-2xl">
+          <p className="text-blue-500 font-semibold mb-3 text-xl md:text-3xl">
             95% trial success rate
           </p>
           <span className="whitespace-pre-line">
@@ -32,7 +30,7 @@ function GetHired() {
             </div>
           </span>
         </div>
-        <div className="rounded-xl shadow-md ring-1 ring-gray-700 offset-x-0 offset-y-0 p-8">
+        <div className="rounded-xl shadow-md ring-1 mx-2 ring-gray-700 offset-x-0 offset-y-0 p-8">
           <div className="flex items-center gap-2 mb-5">
             <img
               className="filter brightness-95 saturate-150  hue-rotate-90"
@@ -44,7 +42,7 @@ function GetHired() {
             />
             <h3>Efficiency</h3>
           </div>
-          <p className="text-blue-500 font-semibold mb-3 text-2xl">
+          <p className="text-blue-500 font-semibold mb-3 text-xl md:text-3xl">
             97% engagement success
           </p>
           <span className="whitespace-pre-line">
@@ -56,7 +54,7 @@ function GetHired() {
             </div>
           </span>
         </div>
-        <div className="rounded-xl shadow-md ring-1 ring-gray-700 offset-x-0 offset-y-0 p-8">
+        <div className="rounded-xl shadow-md mx-2 ring-1 ring-gray-700 offset-x-0 offset-y-0 p-8">
           <div className="flex items-center gap-2 mb-5">
             <img
               className="filter brightness-95 saturate-150  hue-rotate-90"
@@ -68,7 +66,7 @@ function GetHired() {
             />
             <h3>Expertise</h3>
           </div>
-          <p className="text-blue-500 font-semibold mb-3 text-2xl">
+          <p className="text-blue-500 font-semibold mb-3 text-xl md:text-3xl">
             125+ combined years
           </p>
           <span className="whitespace-pre-line">

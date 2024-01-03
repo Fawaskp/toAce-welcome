@@ -9,7 +9,7 @@ function PathPart() {
       </h1>
       <div className=" w-4/6 mx-auto ">
         <div className="card w-full">
-          <div className="info bg-gray-200">
+          <div className="info border md:my-4">
             <h3 className="title font-semibold">Title 1</h3>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -20,7 +20,7 @@ function PathPart() {
           </div>
         </div>
         <div className="card">
-          <div className="info bg-gray-100">
+          <div className="info border md:my-4">
             <h3 className="title font-semibold">Title 2</h3>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -31,7 +31,7 @@ function PathPart() {
           </div>
         </div>
         <div className="card">
-          <div className="info bg-gray-200">
+          <div className="info border md:my-4">
             <h3 className="title font-semibold">Title 3</h3>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
