@@ -43,7 +43,7 @@ function MainContent() {
             Anan tinade. Kvasifyra dobel semimårade ultran så nide. Anasm
             nenöröna, sverka. Tredat uskap ifall triage, och ohägon oliga.
           </p>
-          <button onClick={()=>navigate('/register')} className="bg-default px-3 py-2 sm:px-8 am:py-3 text-white text-sm my-2 rounded-md font-semibold">
+          <button onClick={()=>navigate('/register')} className="bg-default px-3 py-2 sm:px-8 sm:py-3 text-white text-sm md:text-lg my-2 rounded-md font-semibold">
             Register Now !
           </button>
         </div>
