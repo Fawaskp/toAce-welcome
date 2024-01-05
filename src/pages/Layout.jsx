@@ -16,7 +16,7 @@ function classNames(...classes) {
 export default function Example() {
   return (
     <>
-      <Disclosure as="nav" className="dark:bg-gray-800 mb-14">
+      <Disclosure as="nav" className="dark:bg-gray-800 bg-white">
         {({ open }) => (
           <>
             <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
@@ -59,6 +59,7 @@ export default function Example() {
                 </div>
               </div>
             </div>
+            <hr />
 
             <Disclosure.Panel className="sm:hidden">
               <div className="space-y-1 px-2 pb-3 pt-2">
