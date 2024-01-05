@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 
 function RegisterPart() {
   return (
-    <div className="lg:bg-gray-100 min-h-[100px] border-b-16 border-default lg:-mt-16">
+    <div className="lg:bg-gray-100 dark:bg-gray-800 dark:text-white min-h-[100px] border-b-8 md:border-b-16 border-default lg:-mt-16">
       <div className=" max-w-7xl mx-auto md:p-10 flex flex-col">
         
         <div className="flex p-3 mt-2 md:my-10 justify-around border flex-col items-center md:flex-row border-dashed border-gray-700 rounded-md mx-5">
