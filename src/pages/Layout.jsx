@@ -1,5 +1,10 @@
 import { Disclosure } from "@headlessui/react";
-import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
+import {
+  Bars3Icon,
+  EnvelopeIcon,
+  PhoneIcon,
+  XMarkIcon,
+} from "@heroicons/react/24/outline";
 import { Outlet } from "react-router-dom";
 
 const navigation = [
@@ -85,6 +90,27 @@ export default function Example() {
         )}
       </Disclosure>
       <Outlet></Outlet>
+      <div className="max-w-7xl mx-auto p-2 sm:p-4 md:py-8 bg-white">
+        <div className="md:w-2/5 mx-auto flex flex-col md:flex-row justify-center md:justify-around lg:my-4">
+          <div className="flex flex-col gap-2">
+            <span>
+              <PhoneIcon className="w-5 inline-block me-3" />
+              Let's talk
+            </span>
+            <span className="text-default">+91 9876543210</span>
+          </div>
+          <div className="flex flex-col gap-2 justify-center">
+            <span>
+              <EnvelopeIcon className="w-5 inline-block me-3" />
+              General Support
+            </span>
+            <span className="text-default">+91 9876543210</span>
+          </div>
+        </div>
+        <span className="block text-sm text-gray-500 sm:text-center dark:text-gray-400 lg:my-8">
+          © 2024 toace . All Rights Reserved.
+        </span>
+      </div>
     </>
   );
 }

@@ -3,7 +3,7 @@ export default {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
-  darkMode:['class'],
+  darkMode: ['class'],
   theme: {
     extend: {
       textColor: {
@@ -11,6 +11,12 @@ export default {
       },
       backgroundColor: {
         default: 'rgba(27, 133, 231, 1)',
+      },
+      borderColor: {
+        default: 'rgba(27, 133, 231, 1)',
+      },
+      borderWidth:{
+        '16':'16px'
       },
     },
   },

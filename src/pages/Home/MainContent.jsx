@@ -4,7 +4,7 @@ function MainContent() {
   return (
     <div className="relative">
       <svg
-        className="absolute block mx-auto -top-6 w-full h-full -z-20"
+        className="absolute hidden lg:block mx-auto -top-6 w-full -z-20"
         viewBox="0 0 29849 14491"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
@@ -23,27 +23,29 @@ function MainContent() {
         />
       </svg>
 
-      <div className=" max-w-7xl mx-auto md:h-screen md:p-10 my-2 flex flex-col md:flex-row">
-        <div className="w-2/3 p-14 h-full">
-          <h1 className="text-5xl py-2 font-bold">
-            Easy to <span className="text-default"> Hire</span>{" "}
-          </h1>
-          <h1 className="text-5xl py-3 font-bold">
-            Talented <span className="text-default">Developers </span> &
-          </h1>
-          <h1 className="text-5xl py-2 font-bold">
-            Professional <span>Agencies! </span>{" "}
-          </h1>
-          <p className="text-gray-500 font-extralight py-4">
+      <div className=" max-w-7xl mx-auto lg:h-screen md:p-10 mt-2 flex flex-col md:flex-row">
+        <div className="lg:w-2/3 p-5 md:p-0   2xl:p-5 h-full">
+          <div className="text-2xl sm:text-3xl 2xl:text-5xl pb-2 font-bold" >
+            <h1 className="sm:py-2">
+              Easy to <span className="text-default"> Hire</span>{" "}
+            </h1>
+            <h1 className="2xl:py-3">
+              Talented <span className="text-default">Developers </span> &
+            </h1>
+            <h1 className="sm:pt-2">
+              Professional <span>Agencies! </span>{" "}
+            </h1>
+          </div>
+          <p className="text-sm sm:text-md text-gray-500 font-extralight py-2 2xl:py-4">
             Lörem ipsum doktiga povärunt. Kingen pons anarusade de astrojåbel.
             Anan tinade. Kvasifyra dobel semimårade ultran så nide. Anasm
             nenöröna, sverka. Tredat uskap ifall triage, och ohägon oliga.
           </p>
-          <button className="bg-default px-8 py-3 text-white my-2 rounded-md font-semibold">
-            Get Start Now!
+          <button className="bg-default px-3 py-2 sm:px-8 am:py-3 text-white text-sm my-2 rounded-md font-semibold">
+            Register Now !
           </button>
         </div>
-        <div className="1/3"></div>
+        <div className="w-1/3"></div>
       </div>
     </div>
   );
