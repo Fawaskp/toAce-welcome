@@ -2,7 +2,7 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 
 function MainContent() {
-  const navigate = useNavigate()
+  const navigate = useNavigate();
   return (
     <div className="relative dark:bg-gray-800 lg:dark:bg-transparent">
       <svg
@@ -27,7 +27,7 @@ function MainContent() {
 
       <div className="max-w-7xl mx-auto lg:h-screen md:p-10 pt-2 flex flex-col md:flex-row">
         <div className="lg:w-2/3 p-5 md:p-0   2xl:p-5 h-full">
-          <div className="text-2xl sm:text-3xl 2xl:text-5xl pb-2 font-bold dark:text-white" >
+          <div className="text-2xl sm:text-3xl 2xl:text-5xl pb-2 font-bold dark:text-white">
             <h1 className="sm:py-2">
               Easy to <span className="text-default"> Hire</span>{" "}
             </h1>
@@ -43,7 +43,12 @@ function MainContent() {
             Anan tinade. Kvasifyra dobel semimårade ultran så nide. Anasm
             nenöröna, sverka. Tredat uskap ifall triage, och ohägon oliga.
           </p>
-          <button onClick={()=>navigate('/register')} className="bg-default px-3 py-2 sm:px-8 sm:py-3 text-white text-sm md:text-lg my-2 rounded-md font-semibold">
+          <button
+            data-tooltip="Register here for both Institute and Individuals"
+            data-tooltip-location="right"
+            onClick={() => navigate("/register")}
+            className="bg-default px-3 py-2 sm:px-8 sm:py-3 text-white text-sm md:text-lg my-2 rounded-md font-semibold"
+          >
             Register Now !
           </button>
         </div>
